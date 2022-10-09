@@ -3,6 +3,7 @@
 // approach, it's quite hard to count so many primes.
 #include <iostream>
 #include <cmath>
+#include <vector>
 using namespace std;
 
 
@@ -27,5 +28,6 @@ unsigned long long euler10(unsigned long long n) {
 
 
 int main () {
-  cout << euler10(2000000);
+  cout << euler10(2000000) << endl;
 }
+

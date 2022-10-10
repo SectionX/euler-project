@@ -1,9 +1,17 @@
 /* 
 2D arrays require discipline. It's easy to mess them up and spend a lot
-of time debugging. Additionally, dealing dynamically with goign out of 
-bound is complicated. The easiest way for this exercise is to just extend
+of time debugging. Additionally, dealing dynamically with going out of 
+bounds is complicated. The easiest way for this exercise is to just extend
 the arrays with an identity number, like 1 for multiplication, or 0 for 
-addition.
+addition. 
+
+A second idea would be to multiply by identity every time the cursor
+goes out of bounds. The problem is that having multiple cursors overcomplicates
+the problem.
+
+The last idea would be to do exception handling. I'm not sure how it works in
+C++ but I have tried this approach in Python in the past. It's really messy and 
+hard to read/debug though.
 */
 
 
